@@ -82,3 +82,4 @@ else:
 
 # TODO: Print result
 print(f"Operation Result: {calc_result}")
+input("\nPress Enter to exit...")
