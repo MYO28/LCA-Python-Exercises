@@ -1,46 +1,39 @@
 # ------------------------------------------------------------------------------------
-# Question 1: Basic Function Definition and Calling
-
-# TODO: Define a function called 'greet' that prints "Hello, World!"
+# Question 1: Basic Function
 def greet():
     print("Hello, World!")
 
-# TODO: Call the 'greet' function
 greet()
 
-
 # ------------------------------------------------------------------------------------
-# Question 2: Function with Parameters
-
-# TODO: Define a function called 'personalized_greeting' that takes a name as a parameter
+# Question 2: Function with Parameters (Interactive)
 def personalized_greeting(name):
     print(f"Hello, {name}!")
 
-# TODO: Call the 'personalized_greeting' function with your name
-personalized_greeting("Yusuf")
-
+# TODO: Ask the user for their name first
+user_name = input("Enter your name for a greeting: ")
+personalized_greeting(user_name)
 
 # ------------------------------------------------------------------------------------
-# Question 3: Function with Return Value
-
-# TODO: Define a function called 'square' that takes a number and returns its square
+# Question 3: Function with Return Value (Interactive)
 def square(number):
     return number * number
 
-# TODO: Call the 'square' function with the number 5 and print the result
-result = square(5)
-print(f"The square of 5 is: {result}")
-
+# TODO: Ask the user for a number
+user_num = int(input("Enter a number to square: "))
+result = square(user_num)
+print(f"The square of {user_num} is: {result}")
 
 # ------------------------------------------------------------------------------------
-# Question 4: Multiple Parameters
-
-# TODO: Define a function called 'calculate_area' (width * height)
+# Question 4: Multiple Parameters (Interactive)
 def calculate_area(width, height):
     return width * height
 
-# TODO: Call the function and print the area
-area = calculate_area(10, 5)
+# TODO: Ask user for dimensions
+w = int(input("Enter the rectangle width: "))
+h = int(input("Enter the rectangle height: "))
+
+area = calculate_area(w, h)
 print(f"The area of the rectangle is: {area}")
 
 input("\nPress Enter to exit...")
