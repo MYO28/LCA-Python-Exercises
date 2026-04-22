@@ -1,4 +1,3 @@
-#------------------------------------------------------------------------------------
 # Question 1: Variable Assignment and String Manipulation
 
 # TODO: Ask the user for their name and store it in a variable
@@ -9,7 +8,6 @@ age = input("Enter your age: ")
 
 # TODO: Print a greeting using the name and age variables
 print(f"Hello {name}, you are {age} years old!")
-
 
 #------------------------------------------------------------------------------------
 # Question 2: Integer Operations
@@ -26,7 +24,6 @@ area = length * width
 # TODO: Print the result
 print(f"The area of the rectangle is: {area}")
 
-
 #------------------------------------------------------------------------------------
 # Question 3: Working with Floats
 
@@ -39,36 +36,14 @@ fahrenheit = (celsius * 9/5) + 32
 # TODO: Print the result rounded to two decimal places
 print(f"{celsius}°C is equal to {round(fahrenheit, 2)}°F")
 
-
 #------------------------------------------------------------------------------------
-# Logic Examples (For Reference)
+# Logic Examples (Keep these if required by your course)
 
-# Simple If/Else
 num = 10
 if num > 0:
     print("Positive number")   
 else:
     print("Negative number or zero")
 
-# Elif example
-height = 175
-if height < 150:    
-    print("Short")  
-elif height < 180:    
-    print("Average height")
-else:    
-    print("Tall")
-
-# Nested if with logical operators
-age_val = 25
-if age_val >= 18:
-    if age_val < 65:
-        print("Adult")
-    else:
-        print("Senior")
-else:
-    print("Minor")
-    
-    print(f"{celsius}°C is equal to {round(fahrenheit, 2)}°F")
-
-    input("\nPress Enter to exit...")
+# THIS LINE KEEPS THE WINDOW OPEN
+input("\nExercise 1 complete! Press Enter to exit...")
