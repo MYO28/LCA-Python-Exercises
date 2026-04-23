@@ -41,3 +41,5 @@ print(f"Randomly selected color: {random_color}")
 for _ in range(3):
     random_color = random.choice(colors)
     print(f"Randomly selected color: {random_color}")
+
+input("\nPress Enter to exit...")
