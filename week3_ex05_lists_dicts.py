@@ -70,3 +70,6 @@ if fruit_to_check in fruit_colors:
     print(f"The color of the {fruit_to_check} is {fruit_colors[fruit_to_check]}.")
 else:
     print(f"{fruit_to_check} is not in the dictionary.")
+
+# Keep the console window open
+input("Press Enter to exit...")
